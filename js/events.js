@@ -1,3 +1,10 @@
+ $('img').on('click', function(){
+  $('img').addClass("tasty");
+  });
+
+
+
+
 function getIt(){
   
   $('p').on('click', function(){
