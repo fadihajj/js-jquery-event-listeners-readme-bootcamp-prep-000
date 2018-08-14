@@ -1,10 +1,3 @@
- $('img').on('load', function(){
-  $('img').addClass("tasty");
-  });
-
-
-
-
 function getIt(){
   
   $('p').on('click', function(){
@@ -15,7 +8,7 @@ function getIt(){
 
 function frameIt(){
   
-  $('img').on('click', function(){
+  $('img').on('load', function(){
   $('img').addClass("tasty");
   });
   
